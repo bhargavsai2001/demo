@@ -4,6 +4,11 @@
 <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>HARSHITHA • Portfolio</title>
+    <link rel="apple-touch-icon" sizes="180x180" href="images/favicon/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="images/favicon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="images/favicon/favicon-16x16.png">
+    <link rel="manifest" href="/site.webmanifest">
+
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.3/font/bootstrap-icons.css">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
@@ -11,12 +16,13 @@
 body {
   margin: 0;
   background-image: radial-gradient( circle 588px at 31.7% 40.2%,  rgba(225,200,239,1) 21.4%, rgba(163,225,233,1) 57.1% );
+  scroll-behavior: smooth;
 }
 
 .sidebar {
   margin: 0;
   padding: 10px;
-  width: 30%;
+  width: 28%;
   position: fixed;
   height: 100%;
   overflow: auto;
@@ -26,7 +32,7 @@ body {
 
  
 div.content {
-  margin-left: 30%;
+  margin-left: 28%;
   padding: 1px 16px;
   height: 1000px;
 } 
@@ -37,6 +43,7 @@ background: -webkit-linear-gradient(to right, #2C5364, #203A43, #0F2027);  /* Ch
 background: linear-gradient(to right, #2C5364, #203A43, #0F2027); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 color:  white;
 }
+
 
 @media screen and (max-width: 700px) {
   .sidebar {
@@ -53,6 +60,9 @@ color:  white;
 </style>
 </head>
 <body>
+<div class="progress-container fixed-top">
+  <span class="progress-bar"></span>
+</div>
 
 <div class="d-flex flex-column sidebar text-white">
   <div class="card border-0 mx-auto"  style="width: 90%; background: rgba(0, 0, 0, 0);">
@@ -82,20 +92,24 @@ color:  white;
     
     <hr>
     <div class="row responsive mx-auto">
-      <p>Get in touch</p>
-      <div class="col">
+      <p class=" text-center">Get in touch</p>
+      <div class="col text-center">
         <a href="https://www.linkedin.com/in/kancheti-sri-harshitha-7a05b4224/" class="text-white"><i class="bi bi-linkedin"></i></a>
       </div>
 
-      <div class="col">
+      <div class="col text-center">
         <a href="https://www.facebook.com/harshitha.kancheti" class="text-white"><i class="bi bi-facebook"></i></a>
       </div>
 
-      <div class="col">
+      <div class="col text-center">
         <a href="https://wa.me/+916309529822" class="text-white"><i class="bi bi-whatsapp"></i></a>
       </div>
 
-      <div class="col">
+      <div class="col text-center">
+        <a href="https://www.instagram.com/kancheti_harshitha/" class="text-white"><i class="bi bi-github"></i></a>
+      </div>
+
+      <div class="col text-center">
         <a href="https://www.instagram.com/kancheti_harshitha/" class="text-white"><i class="bi bi-instagram"></i></a>
       </div>
     </div>
@@ -107,7 +121,7 @@ color:  white;
     <h1 class="display-6">Portfolio</h1>
     <hr>
 
-    <div class="card shadow">
+    <div class="card shadow" > 
       <div class="card-header">
         <i class="bi bi-briefcase-fill"></i> Career Objective
       </div>
@@ -118,14 +132,14 @@ color:  white;
 
     <br>
 
-    <div class="card shadow">
+    <div class="card shadow" >
       <div class="card-header">
         <i class="bi bi-book-fill"></i> Education
       </div>
       <div class="card-body">
         <div class="card-group">
           <div class="card">
-            <div class="card-header text-center">Bachelor of Technology</div>
+            <div class="card-header text-center">B Tech</div>
             <img src="images/hindu.jpeg" class="card-img-top mx-auto" style="width: 40%;" alt="Hindu Logo">
             <div class="card-body">
               <h5 class="card-title text-center">HINDU COLLEGE OF ENGINEERING AND TECHNOLOGY (JNTUK)</h5>
@@ -199,7 +213,7 @@ color:  white;
             <div class="card h-100">
               
               <div class="card-body">
-                <h5 class="card-title"><img src="images/python.png" alt="" width="32" height="32" class="rounded-circle me-2">PYTHON</h5>
+                <h5 class="card-title"><img src="images/python.png" alt="" width="32" height="32" class="rounded-circle me-2">Python</h5>
               </div>
             </div>
           </div>
@@ -377,7 +391,7 @@ color:  white;
         <div class="card-group text-white">
           <div class="card border-none" style="background: rgba(0, 0, 0, 0);" >
             <div class="card-body ">
-              <h5 class="card-title">Address</h5>
+              <h5 class="card-title"><i class="bi bi-house-door-fill"></i> Address</h5>
               <p>Door No:502
                 Beside Maruthi Nagar arch,
                 Gujjanagundla,
@@ -388,14 +402,14 @@ color:  white;
 
           <div class="card" style="background: rgba(0, 0, 0, 0);">
             <div class="card-body">
-              <h5 class="card-title">Phone</h5>
+              <h5 class="card-title"><i class="bi bi-telephone-fill"></i> Phone</h5>
               <a href="tel:+916309529822" class="nav-link">+91 6309529822</a>
             </div>
           </div>
 
           <div class="card" style="background: rgba(0, 0, 0, 0);">
             <div class="card-body">
-              <h5 class="card-title">Email</h5>
+              <h5 class="card-title"><i class="bi bi-envelope-fill"></i> Email</h5>
               <a href="mailto:kanchetiharshitha@gmail.com" class="nav-link">kanchetiharshitha@gmail.com</a>
             </div>
           </div>
